@@ -45,7 +45,7 @@ function App() {
     
     try {
       setLoading(true)
-      const response = await fetch(`http://localhost:5000/api/activities/${currentUser.id}`)
+      const response = await fetch(`/api/activities/${currentUser.id}`)
       if (response.ok) {
         const data = await response.json()
         setActivities(data)
@@ -61,7 +61,7 @@ function App() {
     if (!currentUser) return
     
     try {
-      const response = await fetch('http://localhost:5000/api/activities', {
+      const response = await fetch('/api/activities', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -83,7 +83,7 @@ function App() {
 
   const handleUpdateActivity = async (id, activityData) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/activities/${id}`, {
+      const response = await fetch(`/api/activities/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -102,7 +102,7 @@ function App() {
 
   const handleDeleteActivity = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/activities/${id}`, {
+      const response = await fetch(`/api/activities/${id}`, {
         method: 'DELETE',
       })
       if (response.ok) {

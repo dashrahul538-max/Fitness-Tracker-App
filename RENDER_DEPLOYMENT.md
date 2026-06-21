@@ -30,6 +30,8 @@ git push -u origin main
    - **Build Command**: `npm install && npm run build`
    - **Start Command**: `npm start`
 
+> This repo also includes `render.yaml`, which tells Render to use the same build and start commands automatically.
+
 ### 3. Configure Environment Variables (if needed)
 - In the Render dashboard, go to **Environment** tab
 - Add any custom variables (currently using default PORT from Render)

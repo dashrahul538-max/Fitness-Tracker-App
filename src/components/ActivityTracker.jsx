@@ -103,7 +103,7 @@ function ActivityTracker({ onActivitySaved, currentUser }) {
 
     try {
       const today = new Date().toISOString().split('T')[0]
-      const response = await fetch('http://localhost:5000/api/activities', {
+      const response = await fetch('/api/activities', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
