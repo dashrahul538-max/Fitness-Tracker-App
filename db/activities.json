@@ -1,0 +1,46 @@
+[
+  {
+    "id": "55511c9c-a72a-4a66-b4a5-fa31cb985a44",
+    "userId": "31c1c1ff-8099-4787-a91e-321371922b02",
+    "date": "2026-06-20",
+    "type": "Running",
+    "duration": 30,
+    "calories": 250,
+    "notes": "",
+    "created_at": "2026-06-20T10:50:45.296Z",
+    "updated_at": "2026-06-20T10:50:45.296Z"
+  },
+  {
+    "id": "1d7f5277-3450-44c2-876d-bf35a4609a3c",
+    "userId": "0ffafe4e-144e-467e-bdf4-9d56ba2e874b",
+    "date": "2026-06-21",
+    "type": "Running",
+    "duration": 1,
+    "calories": 10,
+    "notes": "",
+    "created_at": "2026-06-21T06:26:22.000Z",
+    "updated_at": "2026-06-21T06:26:22.000Z"
+  },
+  {
+    "id": "f16ec10c-4c67-48be-9529-403710dc8482",
+    "userId": "0ffafe4e-144e-467e-bdf4-9d56ba2e874b",
+    "date": "2026-06-21",
+    "type": "Running",
+    "duration": 1,
+    "calories": 10,
+    "notes": "",
+    "created_at": "2026-06-21T06:26:31.992Z",
+    "updated_at": "2026-06-21T06:26:31.992Z"
+  },
+  {
+    "id": "75e6766c-25ee-455d-9651-57514dc35a79",
+    "userId": "0ffafe4e-144e-467e-bdf4-9d56ba2e874b",
+    "date": "2026-06-21",
+    "type": "Running",
+    "duration": 1,
+    "calories": 10,
+    "notes": "",
+    "created_at": "2026-06-21T06:26:37.542Z",
+    "updated_at": "2026-06-21T06:26:37.542Z"
+  }
+]
